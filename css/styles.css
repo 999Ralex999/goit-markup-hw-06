@@ -825,6 +825,7 @@ img {
 }
 
 .modal-form-checkbox {
+    margin-right: auto;
     width: 16px;
     height: 16px;
     border: 1px solid rgba(46, 47, 66, 0.4);
@@ -849,6 +850,8 @@ input:checked+.modal-form-agreement>.modal-form-checkbox {
 
 .btn-accent {
     display: block;
+    margin-right: auto;
+    margin-left: auto;
     min-width: 169px;
     height: 56px;
     font-family: var(--main-font);
