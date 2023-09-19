@@ -1562,7 +1562,7 @@ input:checked+.modal-form-agreement>.modal-form-checkbox {
 
 .mobile-contacts-item {
     font-family: Roboto;
-    font-size: 20px;
+    /* font-size: 20px; */
     font-style: normal;
     font-weight: 500;
     line-height: 1.2;
@@ -1582,7 +1582,7 @@ input:checked+.modal-form-agreement>.modal-form-checkbox {
 
 .highlight {
     color: var(--iris, #4d5ae5);
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 700;
     line-height: 40px;
     letter-spacing: 0.72px;
@@ -1601,6 +1601,12 @@ input:checked+.modal-form-agreement>.modal-form-checkbox {
 .mobile-socials-list {
     display: flex;
     gap: 56px;
+
+    @media (min-width: 320px) and (max-width: 427.98px) {
+        gap: 12px;
+        width: calc(100% - 30px);
+    }
+
 }
 
 .team-container,
